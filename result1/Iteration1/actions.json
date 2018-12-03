@@ -6,16 +6,16 @@
                 "stepId": "STEP1",
                 "stepName": "Rest Request: GET: http://localhost:9001/url",
                 "infFile": "t1.inf",
-                "time": 1543562818181
+                "time": 1543844038652
             }
         ],
         "transactions": [
             {
                 "transactionName": "VALIDATE_RESPONSE",
-                "rawStartTime": 1543562817732,
-                "rawEndTime": 1543562818308,
+                "rawStartTime": 1543844038004,
+                "rawEndTime": 1543844038722,
                 "thinkTime": 0.0,
-                "wastedTime": 0.3002891540527344
+                "wastedTime": 0.26837801933288576
             }
         ]
     },
@@ -26,16 +26,16 @@
                 "stepId": "STEP2",
                 "stepName": "Rest Request: POST: http://localhost:9001/sbmit",
                 "infFile": "t2.inf",
-                "time": 1543562818794
+                "time": 1543844039260
             }
         ],
         "transactions": [
             {
                 "transactionName": "VALIDATE_RESPONSE",
-                "rawStartTime": 1543562818433,
-                "rawEndTime": 1543562818840,
+                "rawStartTime": 1543844038844,
+                "rawEndTime": 1543844039311,
                 "thinkTime": 0.0,
-                "wastedTime": 0.026686906814575197
+                "wastedTime": 0.028482913970947267
             }
         ]
     }

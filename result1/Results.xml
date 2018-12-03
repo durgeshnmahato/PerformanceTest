@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="India Standard Time">
-<General productName="Vugen" productVer="12" os="" host="INCNI6P018"><DocLocation><![CDATA[D:\Workdir\Test scripts\API_Valdiation_Test]]></DocLocation></General>
+<General productName="Vugen" productVer="12" os="" host="INCNI6P018"><DocLocation><![CDATA[C:\Users\cnr8ob\Documents\VuGen\Scripts\PerformanceTest]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[API_Valdiation_Test]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="11/30/2018 - 12:56:57" eTime="11/30/2018 - 12:56:57" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="12/3/2018 - 19:03:57" eTime="12/3/2018 - 19:03:57" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>EntireBodyResponse</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:57]]></Time>
-<TimeTick>1543562817</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:58]]></Time>
+<TimeTick>1543844038</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Rest Request: GET: http://localhost:9001/url]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:58]]></Time>
-<TimeTick>1543562818</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:58]]></Time>
+<TimeTick>1543844038</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Rest Request: GET: http://localhost:9001/url]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -167,13 +167,13 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Get Int Property]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>HTTP return code : <STRONG><FONT COLOR=#00AF00>200</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:58]]></Time>
-<TimeTick>1543562818</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:58]]></Time>
+<TimeTick>1543844038</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" >
 <Disp><![CDATA[Service: Get Int Property]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="11/30/2018 - 12:56:57" eTime="11/30/2018 - 12:56:58" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="12/3/2018 - 19:03:57" eTime="12/3/2018 - 19:03:58" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -183,8 +183,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>EntireBodyResponse</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:58]]></Time>
-<TimeTick>1543562818</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:58]]></Time>
+<TimeTick>1543844038</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="14" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -192,8 +192,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Rest Request: POST: http://localhost:9001/sbmit]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:58]]></Time>
-<TimeTick>1543562818</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:59]]></Time>
+<TimeTick>1543844039</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
 <Disp><![CDATA[Rest Request: POST: http://localhost:9001/sbmit]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -204,13 +204,13 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Get Int Property]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>HTTP return code : <STRONG><FONT COLOR=#00AF00>200</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/30/2018 - 12:56:58]]></Time>
-<TimeTick>1543562818</TimeTick>
+<Time><![CDATA[12/3/2018 - 19:03:59]]></Time>
+<TimeTick>1543844039</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="16" >
 <Disp><![CDATA[Service: Get Int Property]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="11/30/2018 - 12:56:58" eTime="11/30/2018 - 12:56:58" passed="1" failed="0" warnings="0" ></Summary>
+<Summary sTime="12/3/2018 - 19:03:58" eTime="12/3/2018 - 19:03:59" passed="1" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="13" status="Passed" >
 <Disp><![CDATA[Post_Request Summary]]></Disp>
 </NodeArgs>
@@ -221,12 +221,12 @@
 </DIter>
 <Action rID="T12">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="11/30/2018 - 12:56:58" eTime="11/30/2018 - 12:56:58" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="12/3/2018 - 19:03:59" eTime="12/3/2018 - 19:03:59" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="19" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="11/30/2018 - 12:56:56" eTime="11/30/2018 - 12:56:58" passed="2" failed="0" warnings="0" ></Summary>
+<Summary sTime="12/3/2018 - 19:03:56" eTime="12/3/2018 - 19:03:59" passed="2" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test API_Valdiation_Test Summary]]></Disp>
 </NodeArgs>

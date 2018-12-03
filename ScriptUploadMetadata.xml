@@ -14,14 +14,13 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="Request_Msg.json" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="combined_API_Valdiation_Test.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="171039604440.idx" Filter="1" />
-    <FileEntry Name="4725973440.idx" Filter="1" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="API_Valdiation_Test.c.pickle" Filter="1" />
     <FileEntry Name="API_Valdiation_Test.ci" Filter="1" />
     <FileEntry Name="API_Valdiation_Test.prm" Filter="1" />
-    <FileEntry Name="API_Valdiation_Test.prm.bak" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -29,6 +28,7 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrvdh1.945.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="NewParam_1.dat" Filter="1" />
@@ -41,7 +41,9 @@
     <FileEntry Name="Req_msg.dat" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="res\" Filter="1" />
+    <FileEntry Name="result\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
     <FileEntry Name="Scenarios\" Filter="1" />
   </GeneralFiles>

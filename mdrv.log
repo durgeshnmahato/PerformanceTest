@@ -1,9 +1,9 @@
-Virtual User Script started at: 11/30/2018 12:56:56 PM
+Virtual User Script started at: 12/3/2018 7:03:56 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
-Runtime Settings file: "D:\Workdir\Test scripts\API_Valdiation_Test\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\cnr8ob\Documents\VuGen\Scripts\PerformanceTest\\default.cfg"  	[MsgId: MMSG-27141]
 Starting to download the proxy automatic configuration script, URL="http://proxyconf.industrysoftware.automation.siemens.com/"  	[MsgId: MMSG-27097]
 Proxy automatic configuration script (URL="http://proxyconf.industrysoftware.automation.siemens.com/") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
 Ending action vuser_init.
@@ -29,7 +29,7 @@ Action.c(98): lr_json_get_values succeed, 1 match
 Action.c(102): Doc Id is 5bf3a0c48ae6ba001bb0e191
 Action.c(111): lr_json_get_values succeed, 1 match
 Action.c(115): Doc type is model
-Action.c(127): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Pass" status (Duration: 0.5760 Wasted Time: 0.3003).
+Action.c(127): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Pass" status (Duration: 0.7182 Wasted Time: 0.2684).
 Ending action Action.
 Starting action Post_Request.
 Post_Request.c(26): lr_eval_json succeed
@@ -67,7 +67,7 @@ Post_Request.c(141): lr_json_get_values succeed, 1 match
 Post_Request.c(145): Doc Id is 5bf3a0c48ae6ba001bb0e191
 Post_Request.c(154): lr_json_get_values succeed, 1 match
 Post_Request.c(158): Doc type is model
-Post_Request.c(174): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Fail" status (Duration: 0.4073 Wasted Time: 0.0267).
+Post_Request.c(174): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Fail" status (Duration: 0.4665 Wasted Time: 0.0285).
 Post_Request.c(174): Notify: Transaction "VALIDATE_RESPONSE" has 0 error message(s).
 Ending action Post_Request.
 Ending iteration 1.
