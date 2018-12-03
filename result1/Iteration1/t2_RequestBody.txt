@@ -1,0 +1,8 @@
+"{\n"
+"    "event": "POST_ame_to_db",\n"
+"    "inputs": {\n"
+"        "file_id": "5bf3a0c38ae6ba001bb0e18f",\n"
+"        "doc_id": "5bf3a0c48ae6ba001bb0e191",\n"
+"        "doc_type": "model"\n"
+"    }\n"
+"}"

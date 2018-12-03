@@ -1,0 +1,77 @@
+Virtual User Script started at: 11/30/2018 12:56:56 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Workdir\Test scripts\API_Valdiation_Test\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://proxyconf.industrysoftware.automation.siemens.com/"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://proxyconf.industrysoftware.automation.siemens.com/") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(27): Notify: Transaction "VALIDATE_RESPONSE" started.
+Action.c(32): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(32): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_rest("GET: http://localhost:9001/url") started  	[MsgId: MMSG-26355]
+Action.c(36): web_rest("GET: http://localhost:9001/url") was successful, 124 body bytes, 213 header bytes  	[MsgId: MMSG-26386]
+Action.c(44): web_get_int_property started  	[MsgId: MMSG-26355]
+Action.c(44): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Action.c(57): Response JSON object is {"event":"ame_to_db","inputs":{"file_id":"5bf3a0c38ae6ba001bb0e18f","doc_id":"5bf3a0c48ae6ba001bb0e191","doc_type":"model"}}
+Action.c(61): After save to a string is {"event":"ame_to_db","inputs":{"file_id":"5bf3a0c38ae6ba001bb0e18f","doc_id":"5bf3a0c48ae6ba001bb0e191","doc_type":"model"}}
+Action.c(67): lr_eval_json succeed
+Action.c(71): lr_json_get_values succeed, 1 match
+Action.c(82): Event Name is ame_to_db
+Action.c(85): lr_json_get_values succeed, 1 match
+Action.c(89): File Id is 5bf3a0c38ae6ba001bb0e18f
+Action.c(98): lr_json_get_values succeed, 1 match
+Action.c(102): Doc Id is 5bf3a0c48ae6ba001bb0e191
+Action.c(111): lr_json_get_values succeed, 1 match
+Action.c(115): Doc type is model
+Action.c(127): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Pass" status (Duration: 0.5760 Wasted Time: 0.3003).
+Ending action Action.
+Starting action Post_Request.
+Post_Request.c(26): lr_eval_json succeed
+Post_Request.c(29): lr_json_stringify succeed
+Post_Request.c(34): JSON  {
+    "event": "POST_ame_to_db",
+    "inputs": {
+        "file_id": "5bf3a0c38ae6ba001bb0e18f",
+        "doc_id": "5bf3a0c48ae6ba001bb0e191",
+        "doc_type": "model"
+    }
+}
+Post_Request.c(35): lr_json_get_values succeed, 1 match
+Post_Request.c(46): Event Name is POST_ame_to_db
+Post_Request.c(49): Notify: Transaction "VALIDATE_RESPONSE" started.
+Post_Request.c(54): web_reg_save_param started  	[MsgId: MMSG-26355]
+Post_Request.c(54): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Post_Request.c(58): web_rest("POST: http://localhost:9001/sbmit") started  	[MsgId: MMSG-26355]
+Post_Request.c(58): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Post_Request.c(58): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Post_Request.c(58): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Post_Request.c(58): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Post_Request.c(58): Notify: ****************   End of messages from web_add_header   *****************
+Post_Request.c(58): web_rest("POST: http://localhost:9001/sbmit") was successful, 124 body bytes, 213 header bytes  	[MsgId: MMSG-26386]
+Post_Request.c(87): web_get_int_property started  	[MsgId: MMSG-26355]
+Post_Request.c(87): web_get_int_property was successful  	[MsgId: MMSG-26392]
+Post_Request.c(100): Response JSON object is {"event":"ame_to_db","inputs":{"file_id":"5bf3a0c38ae6ba001bb0e18f","doc_id":"5bf3a0c48ae6ba001bb0e191","doc_type":"model"}}
+Post_Request.c(104): After save to a string is {"event":"ame_to_db","inputs":{"file_id":"5bf3a0c38ae6ba001bb0e18f","doc_id":"5bf3a0c48ae6ba001bb0e191","doc_type":"model"}}
+Post_Request.c(110): lr_eval_json succeed
+Post_Request.c(114): lr_json_get_values succeed, 1 match
+Post_Request.c(125): Event Name is ame_to_db
+Post_Request.c(128): lr_json_get_values succeed, 1 match
+Post_Request.c(132): File Id is 5bf3a0c38ae6ba001bb0e18f
+Post_Request.c(141): lr_json_get_values succeed, 1 match
+Post_Request.c(145): Doc Id is 5bf3a0c48ae6ba001bb0e191
+Post_Request.c(154): lr_json_get_values succeed, 1 match
+Post_Request.c(158): Doc type is model
+Post_Request.c(174): Notify: Transaction "VALIDATE_RESPONSE" ended with a "Fail" status (Duration: 0.4073 Wasted Time: 0.0267).
+Post_Request.c(174): Notify: Transaction "VALIDATE_RESPONSE" has 0 error message(s).
+Ending action Post_Request.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

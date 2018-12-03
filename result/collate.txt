@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=D:\Workdir\Test scripts\API_Valdiation_Test\Scenarios\Scenario1.lrs
+Completed=0

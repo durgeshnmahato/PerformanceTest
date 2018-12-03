@@ -1,0 +1,32 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=12.60.0.0
+Path=D:\Workdir\Test scripts\API_Valdiation_Test\Scenarios\Scenario1.lrs
+Subject=
+Result_file=D:\Workdir\Test scripts\API_Valdiation_Test\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-19800
+Start_time=1543408499
+Daylight_Bias=0
+Stop_time=1543408503
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 1 Vusers: 1 every 00:00:15 (HH:MM:SS); Run until completion
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+API_Valdiation_Test=D:\Workdir\Test scripts\API_Valdiation_Test\API_Valdiation_Test.usr
+[Scripts_types]
+API_Valdiation_Test=Multi+QTWeb

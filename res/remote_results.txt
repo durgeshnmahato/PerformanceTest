@@ -1,0 +1,2 @@
+[Hosts]
+localhost=D:\Workdir\Test scripts\API_Valdiation_Test\res\localhost_1.eve
